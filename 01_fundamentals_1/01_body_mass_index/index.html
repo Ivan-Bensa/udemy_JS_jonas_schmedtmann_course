@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body mass index</title>
+</head>
+<body>
+    <script>
+
+  const massMark = 78;
+  const heightMark = 1.96;
+  const massJohn = 92;
+  const heightJohn = 1.95;
+
+  const BMIMark = massMark / (heightMark * heightMark);
+  const BMIJohn = massJohn / heightJohn ** 2;
+
+  console.log(BMIMark, BMIJohn);
+
+  const markHigherBMI = BMIMark > BMIJohn;
+  console.log("Does Mark have a higher BMI than John?", markHigherBMI);
+      
+    </script>
+</body>
+</html>
