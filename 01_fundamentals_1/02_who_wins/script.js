@@ -10,7 +10,7 @@ if(scoreDolphins > scoreKoalas){
 } else {
     console.log("Both win the trophy🏆🏆");
 };
-    */
+ */
 
 
 const scoreDolphins = (97 + 112 + 90) / 3;
